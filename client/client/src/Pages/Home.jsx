@@ -38,9 +38,10 @@ function Home(){
                     <span className="block text-gray-600">Date Posted</span>
                     <select {...register("datePosted")} className="w-full border border-gray-300 rounded-md mb-4">
                        <option value="">Select Date</option>
-                       <option value="last-24-hours">Last 24 Hours</option>
-                       <option value="last-7-days">Last 7 Days</option>
-                       <option value="last-30-days">Last 30 Days</option>
+                       <option value="Past 1 hour">Last 1 Hour</option>
+                       <option value="Past 24 hours">Last 24 Hours</option>
+                       <option value="Past 7 days">Last 7 Days</option>
+                       <option value="Past 30 days">Last 30 Days</option>
                    </select>
                    </label>
                    <label className="block mb-2">
