@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 
 async function runPuppeteer({jobTitle, datePosted, jobDescription}){
 
-const browser = await puppeteer.launch({ headless: false, slowMo: 50 , userDataDir: './puppeteer_data_test'});
+const browser = await puppeteer.launch({ headless: false, slowMo: 50 , userDataDir: './puppeteer_data_test_0'});
 const page = await browser.newPage();
 
 
