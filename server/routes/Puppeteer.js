@@ -34,6 +34,8 @@ await page.goto(`https://www.linkedin.com/jobs/search-results/?distance=25&f_AL=
 await new Promise(resolve => setTimeout(resolve, 2000));
 
 
+
+
 // console.log("Logged in to LinkedIn");
 // search for jobs
 
