@@ -10,6 +10,14 @@ try{
 await page.goto('https://linkedin.com/jobs', {waitUntil :'networkidle2'});
 
 
+
+const easyApplyFiller ={
+    'EMAIL': 'thejovamsigajjala@gmail.com',
+    'PHONE':'2014238100',
+    'COUNTRY_CODE': 'United States (+1)'
+}
+
+
 //Mapping function for time filter
 const timefilter= {
     'Past 1 hour' : '3600',
